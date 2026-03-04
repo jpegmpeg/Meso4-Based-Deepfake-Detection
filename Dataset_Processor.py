@@ -21,7 +21,7 @@ import cv2
 import csv
 
 #Path information on the dataset location 
-target = "/Users/jessemendoza/Documents/School/Carleton/Year 2/Winter 2022/COMP 4102/Project/Dataset/"
+target = "./Dataset/"
 target_test = target + "Test/"
 target_train = target + "Train/"
 
@@ -32,7 +32,7 @@ target_train = target + "Train/"
 
 def copyDP(): 
 
-	deepFake_Source = "/Users/jessemendoza/Downloads/cropped_images/"
+	deepFake_Source = "./cropped_images/"
 
 	target_test_dp = target_test + "deep_faces/"
 	target_train_dp = target_train + "deep_faces/"
@@ -71,7 +71,7 @@ def copyDP():
 
 def copyReal():
 
-	real_Source = "/Users/jessemendoza/Downloads/lfw/"
+	real_Source = "./lfw/"
 
 	target_test_r = target_test + "real_faces/"
 	target_train_r = target_train + "real_faces/"
@@ -111,7 +111,7 @@ def copyReal():
 
 def copyRealUTK():
 
-	real_Source = "/Users/jessemendoza/Downloads/UTKFace/"
+	real_Source = "./UTKFace/"
 
 	target_test_r = target_test + "real_faces/"
 	target_train_r = target_train + "real_faces/"
@@ -140,9 +140,9 @@ def copyRealUTK():
 
 def copyRealFBChallenge():
 
-	path_to_data = "/Users/jessemendoza/Downloads/archive (3)/metadata.csv"
+	path_to_data = "./metadata.csv"
 
-	real_Source = "/Users/jessemendoza/Downloads/archive (3)/faces_224/"
+	real_Source = "./faces_224/"
 
 	target_test_r = target_test + "real_faces/"
 	target_train_r = target_train + "real_faces/"
@@ -171,9 +171,9 @@ def copyRealFBChallenge():
 #https://www.kaggle.com/datasets/dagnelies/deepfake-faces
 def copyDFFBChallenge():
 
-	path_to_data = "/Users/jessemendoza/Downloads/archive (3)/metadata.csv"
+	path_to_data = "./metadata.csv"
 
-	real_Source = "/Users/jessemendoza/Downloads/archive (3)/faces_224/"
+	real_Source = "./faces_224/"
 
 	target_test_dp = target_test + "deep_faces/"
 	target_train_dp = target_train + "deep_faces/"

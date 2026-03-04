@@ -3,7 +3,7 @@ import numpy as np
 import cv2	
 
 #Including the xml file native to openCV since it seems to cause issues when not hardcoding the path to it
-haarcascades_path = "/Users/jessemendoza/Documents/School/Carleton/Year 2/Winter 2022/COMP 4102/Project/"
+haarcascades_path = "."
 
 def FacialDetector(imageURL, imgName, dest): 
 

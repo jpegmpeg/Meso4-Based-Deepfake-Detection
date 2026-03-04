@@ -9,7 +9,7 @@ Repository is reflects a project to impliment a CNN for combating facial forgery
 
 To run on commandline(while in ./): python3 DeepFakeDetector.py file_path_of_image_to_analyze
 
-Note: The above should work as is if tensorflow is installed. I use a Mac with an M1 chip so I had to find a work around. I've included a file needed for the workaround in the ./Apple_M1_Extra_for_Tensor if needed. Furthermore, here is a link to a youtube video for the workaound if needed (https://www.youtube.com/watch?v=_CO-ND1FTOU). I ended up having to run my python through Jupyter Notebook, hence why the output doesn't directly save an image but rather plots it. 
+Note: The above should work as is if tensorflow is installed. I use a Mac with an M1 chip so I had to find a work around. I've included a file needed for the workaround in the ./Apple_M1_Extra_for_Tensor if needed. Furthermore, here is a link to a youtube video for the workaround if needed (https://www.youtube.com/watch?v=_CO-ND1FTOU). I ended up having to run my python through Jupyter Notebook, hence why the output doesn't directly save an image but rather plots it. 
 
 To run on Mac M1 with above workaround, input into command line: 
 	- conda activate tensorflow
