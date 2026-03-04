@@ -5,7 +5,7 @@ The archetecture of the CNN is based on Meso 4 (https://arxiv.org/abs/1809.00888
 
 Repository is reflects a project to impliment a CNN for combating facial forgery as generative AI becomes more prevalent 
 
-##Execution
+## Execution
 
 To run on commandline(while in ./): python3 DeepFakeDetector.py file_path_of_image_to_analyze
 
