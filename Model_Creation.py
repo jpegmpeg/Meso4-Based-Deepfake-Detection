@@ -51,8 +51,8 @@ model = keras.Model(inputs=image_input, outputs=output, name="DF_Detection")
 model.summary()
 
 #Path to the training and test data. Since these datasets wont be included in the submission, these will not work without alteration 
-training_data_path = "/Users/jessemendoza/Documents/School/Carleton/Year 2/Winter 2022/COMP 4102/Project/Dataset/Train"
-testing_data_path = "/Users/jessemendoza/Documents/School/Carleton/Year 2/Winter 2022/COMP 4102/Project/Dataset/Test"
+training_data_path = "./Dataset/Train"
+testing_data_path = "./Dataset/Test"
 
 data_categories_train=os.listdir(training_data_path)
 data_categories_test=os.listdir(testing_data_path)
